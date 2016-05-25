@@ -7,8 +7,7 @@ Register your keycaptcha.com account, then replace values of 'KeyCAPTCHA_Private
 
 Then you can use keycaptcha field in your Django forms to protect these forms from spam.
 
-```
-#!python
+```python
 
 from django import forms
 import keycaptcha
