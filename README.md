@@ -25,7 +25,16 @@ if request.method == 'POST':
     form = MyForm(request.POST)
     if form.is_valid():
 
+...
+
 ```
 
+Template:
 
-
+```
+<form action="" method="POST">
+  {% csrf_token %}
+  {{myform.as_p}}
+  <input type="submit" id="postbut" value="Test" />
+</form>
+```
