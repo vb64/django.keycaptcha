@@ -41,8 +41,8 @@ from django.utils.safestring import mark_safe
 
 # Replace PUT_YOUR_PRIVATE_KEY_HERE and PUT_YOUR_KEYCAPTCHA_USER_ID_HERE
 # with proper values from your keycaptcha.com account
-KeyCAPTCHA_PrivateKey = 'XXXXXXX'
-KeyCAPTCHA_UserID = 'YYYYY'
+KeyCAPTCHA_PrivateKey = 'PUT_YOUR_PRIVATE_KEY_HERE'
+KeyCAPTCHA_UserID = 'PUT_YOUR_KEYCAPTCHA_USER_ID_HERE'
 
 KeyCAPTCHA_Template = '''<!-- KeyCAPTCHA code (www.keycaptcha.com)-->
 <input id="capcode" type="hidden" name="%s" value="123" />
